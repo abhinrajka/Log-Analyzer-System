@@ -39,36 +39,33 @@ log-analyzer/
 ├── main.py                # Orchestrates the whole system
 └── threat_intel.py        # Flags malicious IPs
 
-⚙️ Installation
+## ⚙️ Installation  
 
-Clone the repository
-
+### 1. Clone the repository  
+```bash
 git clone https://github.com/your-username/log-analyzer.git
 cd log-analyzer
 
-(Optional) Create and activate virtual environment
-
+### 2. (Optional) Create and activate virtual environment
 python3 -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
 
-
-Install dependencies (if required later)
-
+### 3. Install dependencies (if required later)
 pip install -r requirements.txt
 
-▶️ Usage
+# ▶️ Usage
 
 Place your log file in the project directory (default: access.txt).
 
-Run the analyzer:
+###Run the analyzer:
 
 python3 main.py --file access.txt
 
 
 View results in console & dashboard output.
 
-📊 Workflow
+# 📊 Workflow
 
 log_parser.py → Parses raw logs
 
@@ -82,7 +79,7 @@ dashboard.py → Displays summary report
 
 main.py → Orchestrates the full pipeline
 
-🚀 Future Enhancements
+# 🚀 Future Enhancements
 
 Real-time log streaming
 
@@ -92,6 +89,7 @@ Machine Learning for anomaly detection
 
 SIEM integration
 
-📌 Conclusion
+# 📌 Conclusion
 
-The Log Analyzer System provides a practical, modular approach to automated log analysis and threat detection. It serves as a foundation for building more advanced monitoring and cybersecurity tools.
+The Log Analyzer System provides a practical, modular approach to automated log analysis and threat detection.
+It serves as a foundation for building more advanced monitoring and cybersecurity tools.
